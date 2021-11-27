@@ -9,3 +9,27 @@ body {
 * {
   box-sizing: border-box;
 }
+
+/* HOME PAGE STYLES */
+.home-container {
+  padding: 3 0.5rem;
+}
+
+.main {
+  padding: 5rem 0;
+}
+
+.home-title {
+  text-align: center;
+}
+
+/* ABOUT PAGE STYLES */
+.about-container {
+  padding: 5rem 0.5rem;
+  background-color: #e0ffa7;
+}
+
+.about-title {
+  padding: 1rem 0;
+  text-align: center;
+}

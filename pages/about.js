@@ -1,12 +1,15 @@
 import Head from "next/head";
+// import styles from "../styles/About.module.css";
 
 export default function About() {
   return (
-    <div>
+    <>
       <Head>
         <title>About Us</title>
       </Head>
-      <h1>THIS IS THE ABOUT PAGE</h1>
-    </div>
+      <div className="about-container">
+        <h1 className="about-title">THIS IS THE ABOUT PAGE</h1>
+      </div>
+    </>
   );
 };
